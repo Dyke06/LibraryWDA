@@ -482,7 +482,7 @@ export default {
                 this.desserts.push(resposta.data); // Adicione o novo aluguel à lista
               } else {
                 this.desserts.splice(this.editedIndex, 1, resposta.data);
-              }cd
+              }
               this.close();
               swal('Sucesso', 'Aluguel salvo com sucesso!', 'success');
             })
